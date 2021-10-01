@@ -1,7 +1,7 @@
 function getRandomNumber(min, max) {
-  if (0<=max && min>=0 && min<max)
-  {return Math.floor(Math.random() * (max - min)) + min;}
-  else {
+  if (max>=0 && min>=0 && min<max){
+    return Math.floor(Math.random() * (max - min)) + min;
+  } else {
     return null;
   }
 }
@@ -10,8 +10,7 @@ getRandomNumber(1, 100);
 function stringLength (value, maxLength) {
   if(value.length <= maxLength) {
     return true;
-  }
-  else {
+  } else {
     return false;
   }
 }
