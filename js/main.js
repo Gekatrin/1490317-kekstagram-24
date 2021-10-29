@@ -1,4 +1,4 @@
-import './util.js';
+import './utils.js';
 import './data.js';
 import {getPhotos} from './data.js';
 
