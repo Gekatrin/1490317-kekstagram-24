@@ -83,4 +83,5 @@ function getPhotos() {
   return photos;
 }
 
+
 export {description, names, messages, generatePhoto, getPhotos};
