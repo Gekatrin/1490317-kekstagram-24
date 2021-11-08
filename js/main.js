@@ -1,5 +1,6 @@
 import './utils.js';
 import './data.js';
 import {getPhotos} from './data.js';
+import {publishPhoto} from './pictures.js';
 
-console.log(getPhotos());
+publishPhoto(getPhotos());
