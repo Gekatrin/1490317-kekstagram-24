@@ -36,3 +36,4 @@ const openModalWindow = (image) => {
 };
 export {photoTemplate, photoUnit, publishPhoto, openModalWindow};
 
+

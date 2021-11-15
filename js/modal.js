@@ -60,28 +60,3 @@ const showPostPreview = (({url, likes, comments, description}) => {
 });
 
 export {showPostPreview, showBigPicture};
-
-// // const openModalWindow = (evt) => {
-
-
-// // };
-
-
-// const publishPhotos = (photos) => {
-//   const pictureFramgent = document.createDocumentFragment();
-//   photos.forEach((photo, index) =>{
-//     const viewPhoto = photoTemplate.cloneNode(true);
-//     viewPhoto.querySelector('.picture__likes').textContent = photo.likes;
-//     viewPhoto.querySelector('picture__comments').textContent = photo.comments.length;
-//     viewPhoto.querySelector('picture__img').src = photo.url;
-//     viewPhoto.querySelector('picture__img').id = index;
-//   });
-//   photoUnit.appendChild(pictureFramgent);
-
-//   const publishedPhotos = document.querySelectorAll('.picture__img');
-//   photoUnit.addEventListener('click', (evt) => {
-//     openModalWindow(photos[evt.target.id]);
-//   });
-// };
-
-

@@ -5,3 +5,4 @@ import {photoTemplate, photoUnit, publishPhoto, openModalWindow} from './picture
 
 
 publishPhoto(getPhotos());
+
