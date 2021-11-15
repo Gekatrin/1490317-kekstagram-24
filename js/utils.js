@@ -19,4 +19,6 @@ function stringLength (value, maxLength) {
 stringLength ('Test', 10);
 //источник http://kodesource.top/javascript/form/string-length.php
 
-export {getRandomNumber, stringLength};
+const escapeKey = (evt) => evt.key === 'Escape';
+
+export {getRandomNumber, stringLength, escapeKey};
